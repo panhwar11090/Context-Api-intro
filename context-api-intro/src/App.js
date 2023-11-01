@@ -1,15 +1,14 @@
 import './App.css';
 import {React} from 'react';
-import Form from './components/form/Forms';
-import Students from './components/students/Students'
+import Posts from './components/post/Posts';
 import GlobalState from './context/global/GlobalState';
 
 const App = () => {
   return (
     <GlobalState>
       <div>
-        <Form/>
-        <Students/>
+        <h1>Context Api with axios</h1>
+        <Posts/>
       </div>
     </GlobalState>
     
